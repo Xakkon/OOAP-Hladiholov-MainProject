@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def hello():
-    return jsonify('Змінено з браузера')
+    return jsonify('Змінено з IDE')
 
 
 @app.route('/datetime', methods=['GET'])
