@@ -7,7 +7,6 @@ app = Flask(__name__)
 def hello():
     # Конфлікт вирішено 19.03
     return jsonify('Змінено з IDE')
-    # return jsonify('Змінено з браузера V2')
 
 
 @app.route('/datetime', methods=['GET'])
